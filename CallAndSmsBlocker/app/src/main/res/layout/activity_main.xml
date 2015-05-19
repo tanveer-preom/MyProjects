@@ -1,0 +1,31 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.maincontainer.MainActivity"
+    android:orientation="vertical"
+    >
+    <RelativeLayout
+        android:id="@+id/action_bar"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:background="@color/trans_black"
+
+        >
+        <Button
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_alignParentRight="true"
+            android:background="@drawable/addition"
+            />
+
+    </RelativeLayout>
+    <ListView
+        android:id="@+id/blackList"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        >
+
+    </ListView>
+
+</LinearLayout>
